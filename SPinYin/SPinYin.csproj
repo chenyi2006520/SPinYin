@@ -40,7 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="SPinYin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\surnames.json" />
+    <None Include="Data\words_0.json" />
+    <None Include="Data\words_1.json" />
+    <None Include="Data\words_2.json" />
+    <None Include="Data\words_3.json" />
+    <None Include="Data\words_4.json" />
+    <None Include="Data\words_5.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
