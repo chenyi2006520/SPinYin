@@ -13,4 +13,14 @@ namespace SPinYin
             return null;
         }
     }
+
+    /// <summary>
+    /// 打印的方式
+    /// </summary>
+    public enum OutputType
+    {
+        PINYIN_NONE,
+        PINYIN_ASCII,
+        PINYIN_UNICODE
+    }
 }
